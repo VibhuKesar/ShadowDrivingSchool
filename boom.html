@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Driving School</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+
+  </head>
+  <body>
+<div class="wrapper">
+  <header>
+    <nav>
+      <div class="menu-icon">
+          <i class="fa fa-bars fa-2x"></i>
+        </div>
+        <div class="logo">
+          logo
+        </div>
+        <div class="menu">
+
+          <ul>
+              <li><a class="boom" href="#"></a>Home</li>
+              <li><a class="boom" href="#"></a>Contact</li>
+              <li><a class="boom" href="#"></a>Driving</li>
+              <li><a class="boom" href="#"></a>Lisence</li>
+          </ul>
+
+        </div>
+        </nav>
+      </header>
+    </div>
+
+
+
+
+
+
+      <h1 class='CandL'>Company's Locations and Contact</h1>
+      <div class='mapLoc'>
+        <h2 style="color:white;">Location: 4408 Kissena Blvd, Flushing, NY 11355</h2>
+        <div class='locPhoto'><img src="Capture.png"></div>
+      </div>
+
+
+<div class='cInfo'>
+
+  <p><h2>Contact Info.</h2></p>
+Cell Phone: (347)3487142
+</div>
+
+
+<div class='sReview'>
+  <div class='rbs'>Review by students
+  </div>
+</div>
+
+<div class="footer">
+This website is made for and by Shadow Driving school
+
+</div>
+<script type="text/javascript">
+
+  $(document).ready(function(){
+
+    $(".menu-icon").on("click", function(){
+      $("nav ul").toggleClass("showing");
+
+    });
+  });
+
+
+  $(window).on("scroll",function(){
+    if($(window).scrollTop()){
+      $('nav').addClass('black');
+    }else{
+      $('nav').removeClass('black');
+    }
+  });
+
+  </script>
+
+  </body>
+</html>
